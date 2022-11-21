@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "inheritance",
+        "com/mistica/samples/inheritance"
+    ],
+    "java.dependency.packagePresentation": "hierarchical"
+}
