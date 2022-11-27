@@ -13,6 +13,10 @@ public class MisticaRoomTest {
 		MusicRoom music = new MusicRoom(students);
 
 		System.out.println("The music class prefect is: " + music.selectPrefect());
+
+		BiologyRoom bio = new BiologyRoom(students);
+
+		System.out.println("The Biology high grde is: " + bio.highGrade());
 	}
 
 }
