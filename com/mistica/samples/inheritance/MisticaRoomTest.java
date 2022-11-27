@@ -16,7 +16,7 @@ public class MisticaRoomTest {
 
 		BiologyRoom bio = new BiologyRoom(students);
 
-		System.out.println("The Biology high grde is: " + bio.highGrade());
+		System.out.println("The Biology high grde is: " + bio.highGrade);
 	}
 
 }

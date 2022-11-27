@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class BiologyRoom extends MisticaRoom {
     public int highGrade;
@@ -11,6 +12,6 @@ public class BiologyRoom extends MisticaRoom {
     public BiologyRoom(List<Student> students) {
         super(students);
 
-        highGrade = students.count();
+        highGrade = students.size();
     }
 }
